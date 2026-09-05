@@ -1,11 +1,11 @@
-🩸 BloodBridge
+🩸BloodBridge
 Centralized Real-Time Blood Inventory & Donor Coordination Platform
 
 Connecting Blood. Connecting People. Saving Time.
 
 BloodBridge is a smart healthcare coordination platform designed to connect hospitals, verified blood banks, and eligible blood donors through a centralized system. It enables faster blood availability discovery, emergency request management, intelligent matching, donor engagement, and real-time inventory coordination.
 
-🚨 Problem Statement
+🚨Problem Statement
 
 During blood emergencies, hospitals and patients often face difficulties such as:
 
@@ -19,7 +19,7 @@ Limited ability to predict upcoming shortages.
 
 BloodBridge addresses these challenges through one trusted digital platform.
 
-💡 Proposed Solution
+💡Proposed Solution
 
 BloodBridge creates a centralized ecosystem where:
 
@@ -51,7 +51,8 @@ Record collection/expiry information
 Update stock in real time
 Maintain verification status
 Inventory audit history
-🧑‍🩸 Donor Engagement
+
+🧑‍🩸Donor Engagement
 Donor registration
 Blood group profile
 Eligibility information
@@ -59,7 +60,8 @@ Location-based matching
 Availability status
 Emergency notifications
 Donation history
-🤖 Intelligent Matching
+
+🤖Intelligent Matching
 
 BloodBridge can rank potential matches using factors such as:
 
@@ -74,7 +76,7 @@ Donor availability
 
 Important: Blood compatibility and donor eligibility rules should be implemented using validated medical/blood-bank guidance rather than assumptions.
 
-📊 Predictive Intelligence
+📊Predictive Intelligence
 
 Future versions can use historical data to:
 
@@ -162,7 +164,8 @@ Blood Banks      Eligible Donors
                 │
                 ▼
        Analytics / ML Layer
-🧩 Project Modules
+       
+🧩Project Modules
 Module	Purpose
 🔐 Authentication	Login, registration and access control
 🏥 Hospital Management	Hospital profiles and emergency requests
@@ -174,6 +177,7 @@ Module	Purpose
 📊 Analytics	Demand and inventory insights
 🤖 Prediction	Blood shortage forecasting
 📝 Audit & Trust	Verification and activity tracking
+
 🛠️ Technology Stack
 Frontend
 React.js
@@ -181,14 +185,17 @@ Vite
 Tailwind CSS
 JavaScript
 Chart.js
+
 Backend
 Python
 FastAPI
 SQLAlchemy
 Pydantic
 JWT Authentication
+
 Database
-PostgreSQL
+MongoDB
+
 PostGIS (optional for advanced geospatial functionality)
 AI / ML
 Python
@@ -198,6 +205,7 @@ Scikit-learn
 Additional Services
 Geolocation / Maps API
 Email / SMS / Push Notifications
+
 Docker
 🗄️ Database Design
 
@@ -292,7 +300,8 @@ BloodBridge/
 ├── README.md
 ├── .gitignore
 └── docker-compose.yml
-📊 Dashboard
+
+📊Dashboard
 
 BloodBridge can provide role-specific dashboards.
 
